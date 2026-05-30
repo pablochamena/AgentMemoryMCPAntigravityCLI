@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# NOTE: .memory/ is NOT ignored here.
+# That directory is created inside *client* projects at runtime,
+# not inside this repository.
+
+# Local database and state
+.memory/
+.memory_server.pid
+
+# IDE project caches
+.antigravitycli/
